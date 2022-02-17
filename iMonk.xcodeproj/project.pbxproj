@@ -17,6 +17,7 @@
 		ACC4654A27BEAAAB00E18438 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4654927BEAAAB00E18438 /* ComplicationController.swift */; };
 		ACC4654C27BEAAAC00E18438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC4654B27BEAAAC00E18438 /* Assets.xcassets */; };
 		ACC4654F27BEAAAC00E18438 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC4654E27BEAAAC00E18438 /* Preview Assets.xcassets */; };
+		ACC4656227BEB59000E18438 /* iMonk.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4656127BEB59000E18438 /* iMonk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		ACC4654E27BEAAAC00E18438 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACC4655027BEAAAC00E18438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACC4655127BEAAAC00E18438 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		ACC4656127BEB59000E18438 /* iMonk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMonk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +120,9 @@
 		ACC4654027BEAAAB00E18438 /* iMonk WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				ACC4656027BEB57100E18438 /* Model */,
 				ACC4654127BEAAAB00E18438 /* iMonkApp.swift */,
-				ACC4654327BEAAAB00E18438 /* ContentView.swift */,
+				ACC4655F27BEB4FF00E18438 /* View */,
 				ACC4654527BEAAAB00E18438 /* NotificationController.swift */,
 				ACC4654727BEAAAB00E18438 /* NotificationView.swift */,
 				ACC4654927BEAAAB00E18438 /* ComplicationController.swift */,
@@ -137,6 +140,22 @@
 				ACC4654E27BEAAAC00E18438 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACC4655F27BEB4FF00E18438 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4654327BEAAAB00E18438 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACC4656027BEB57100E18438 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4656127BEB59000E18438 /* iMonk.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +289,7 @@
 				ACC4654427BEAAAB00E18438 /* ContentView.swift in Sources */,
 				ACC4654A27BEAAAB00E18438 /* ComplicationController.swift in Sources */,
 				ACC4654227BEAAAB00E18438 /* iMonkApp.swift in Sources */,
+				ACC4656227BEB59000E18438 /* iMonk.swift in Sources */,
 				ACC4654827BEAAAB00E18438 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
