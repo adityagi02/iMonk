@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACC4653227BEAAAA00E18438 /* iMonk WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ACC4653127BEAAAA00E18438 /* iMonk WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ACC4653727BEAAAB00E18438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC4653627BEAAAB00E18438 /* Assets.xcassets */; };
+		ACC4653D27BEAAAB00E18438 /* iMonk WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ACC4653C27BEAAAB00E18438 /* iMonk WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ACC4654227BEAAAB00E18438 /* iMonkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4654127BEAAAB00E18438 /* iMonkApp.swift */; };
+		ACC4654427BEAAAB00E18438 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4654327BEAAAB00E18438 /* ContentView.swift */; };
+		ACC4654627BEAAAB00E18438 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4654527BEAAAB00E18438 /* NotificationController.swift */; };
+		ACC4654827BEAAAB00E18438 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4654727BEAAAB00E18438 /* NotificationView.swift */; };
+		ACC4654A27BEAAAB00E18438 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4654927BEAAAB00E18438 /* ComplicationController.swift */; };
+		ACC4654C27BEAAAC00E18438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC4654B27BEAAAC00E18438 /* Assets.xcassets */; };
+		ACC4654F27BEAAAC00E18438 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC4654E27BEAAAC00E18438 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACC4653327BEAAAA00E18438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC4652727BEAAAA00E18438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC4653027BEAAAA00E18438;
+			remoteInfo = "iMonk WatchKit App";
+		};
+		ACC4653E27BEAAAB00E18438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC4652727BEAAAA00E18438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC4653B27BEAAAB00E18438;
+			remoteInfo = "iMonk WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ACC4655727BEAAAC00E18438 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ACC4653D27BEAAAB00E18438 /* iMonk WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC4655B27BEAAAC00E18438 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ACC4653227BEAAAA00E18438 /* iMonk WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ACC4652D27BEAAAA00E18438 /* iMonk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMonk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC4653127BEAAAA00E18438 /* iMonk WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iMonk WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC4653627BEAAAB00E18438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC4653C27BEAAAB00E18438 /* iMonk WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iMonk WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC4654127BEAAAB00E18438 /* iMonkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMonkApp.swift; sourceTree = "<group>"; };
+		ACC4654327BEAAAB00E18438 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACC4654527BEAAAB00E18438 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		ACC4654727BEAAAB00E18438 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		ACC4654927BEAAAB00E18438 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		ACC4654B27BEAAAC00E18438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC4654E27BEAAAC00E18438 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACC4655027BEAAAC00E18438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC4655127BEAAAC00E18438 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC4653927BEAAAB00E18438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACC4652627BEAAAA00E18438 = {
+			isa = PBXGroup;
+			children = (
+				ACC4653527BEAAAA00E18438 /* iMonk WatchKit App */,
+				ACC4654027BEAAAB00E18438 /* iMonk WatchKit Extension */,
+				ACC4652E27BEAAAA00E18438 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC4652E27BEAAAA00E18438 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4652D27BEAAAA00E18438 /* iMonk.app */,
+				ACC4653127BEAAAA00E18438 /* iMonk WatchKit App.app */,
+				ACC4653C27BEAAAB00E18438 /* iMonk WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC4653527BEAAAA00E18438 /* iMonk WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4653627BEAAAB00E18438 /* Assets.xcassets */,
+			);
+			path = "iMonk WatchKit App";
+			sourceTree = "<group>";
+		};
+		ACC4654027BEAAAB00E18438 /* iMonk WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4654127BEAAAB00E18438 /* iMonkApp.swift */,
+				ACC4654327BEAAAB00E18438 /* ContentView.swift */,
+				ACC4654527BEAAAB00E18438 /* NotificationController.swift */,
+				ACC4654727BEAAAB00E18438 /* NotificationView.swift */,
+				ACC4654927BEAAAB00E18438 /* ComplicationController.swift */,
+				ACC4654B27BEAAAC00E18438 /* Assets.xcassets */,
+				ACC4655027BEAAAC00E18438 /* Info.plist */,
+				ACC4655127BEAAAC00E18438 /* PushNotificationPayload.apns */,
+				ACC4654D27BEAAAC00E18438 /* Preview Content */,
+			);
+			path = "iMonk WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		ACC4654D27BEAAAC00E18438 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4654E27BEAAAC00E18438 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC4652C27BEAAAA00E18438 /* iMonk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC4655C27BEAAAC00E18438 /* Build configuration list for PBXNativeTarget "iMonk" */;
+			buildPhases = (
+				ACC4652B27BEAAAA00E18438 /* Resources */,
+				ACC4655B27BEAAAC00E18438 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC4653427BEAAAA00E18438 /* PBXTargetDependency */,
+			);
+			name = iMonk;
+			productName = iMonk;
+			productReference = ACC4652D27BEAAAA00E18438 /* iMonk.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		ACC4653027BEAAAA00E18438 /* iMonk WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC4655827BEAAAC00E18438 /* Build configuration list for PBXNativeTarget "iMonk WatchKit App" */;
+			buildPhases = (
+				ACC4652F27BEAAAA00E18438 /* Resources */,
+				ACC4655727BEAAAC00E18438 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC4653F27BEAAAB00E18438 /* PBXTargetDependency */,
+			);
+			name = "iMonk WatchKit App";
+			productName = "iMonk WatchKit App";
+			productReference = ACC4653127BEAAAA00E18438 /* iMonk WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		ACC4653B27BEAAAB00E18438 /* iMonk WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC4655427BEAAAC00E18438 /* Build configuration list for PBXNativeTarget "iMonk WatchKit Extension" */;
+			buildPhases = (
+				ACC4653827BEAAAB00E18438 /* Sources */,
+				ACC4653927BEAAAB00E18438 /* Frameworks */,
+				ACC4653A27BEAAAB00E18438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iMonk WatchKit Extension";
+			productName = "iMonk WatchKit Extension";
+			productReference = ACC4653C27BEAAAB00E18438 /* iMonk WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC4652727BEAAAA00E18438 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					ACC4652C27BEAAAA00E18438 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					ACC4653027BEAAAA00E18438 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					ACC4653B27BEAAAB00E18438 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ACC4652A27BEAAAA00E18438 /* Build configuration list for PBXProject "iMonk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC4652627BEAAAA00E18438;
+			productRefGroup = ACC4652E27BEAAAA00E18438 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC4652C27BEAAAA00E18438 /* iMonk */,
+				ACC4653027BEAAAA00E18438 /* iMonk WatchKit App */,
+				ACC4653B27BEAAAB00E18438 /* iMonk WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC4652B27BEAAAA00E18438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC4652F27BEAAAA00E18438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4653727BEAAAB00E18438 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC4653A27BEAAAB00E18438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4654F27BEAAAC00E18438 /* Preview Assets.xcassets in Resources */,
+				ACC4654C27BEAAAC00E18438 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC4653827BEAAAB00E18438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4654627BEAAAB00E18438 /* NotificationController.swift in Sources */,
+				ACC4654427BEAAAB00E18438 /* ContentView.swift in Sources */,
+				ACC4654A27BEAAAB00E18438 /* ComplicationController.swift in Sources */,
+				ACC4654227BEAAAB00E18438 /* iMonkApp.swift in Sources */,
+				ACC4654827BEAAAB00E18438 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACC4653427BEAAAA00E18438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC4653027BEAAAA00E18438 /* iMonk WatchKit App */;
+			targetProxy = ACC4653327BEAAAA00E18438 /* PBXContainerItemProxy */;
+		};
+		ACC4653F27BEAAAB00E18438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC4653B27BEAAAB00E18438 /* iMonk WatchKit Extension */;
+			targetProxy = ACC4653E27BEAAAB00E18438 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACC4655227BEAAAC00E18438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACC4655327BEAAAC00E18438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC4655527BEAAAC00E18438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iMonk WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iMonk WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iMonk WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adityagi.iMonk.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		ACC4655627BEAAAC00E18438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iMonk WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iMonk WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iMonk WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adityagi.iMonk.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		ACC4655927BEAAAC00E18438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = iMonk_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "iMonk WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adityagi.iMonk.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		ACC4655A27BEAAAC00E18438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = iMonk_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "iMonk WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adityagi.iMonk.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		ACC4655D27BEAAAC00E18438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adityagi.iMonk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ACC4655E27BEAAAC00E18438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adityagi.iMonk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC4652A27BEAAAA00E18438 /* Build configuration list for PBXProject "iMonk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC4655227BEAAAC00E18438 /* Debug */,
+				ACC4655327BEAAAC00E18438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC4655427BEAAAC00E18438 /* Build configuration list for PBXNativeTarget "iMonk WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC4655527BEAAAC00E18438 /* Debug */,
+				ACC4655627BEAAAC00E18438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC4655827BEAAAC00E18438 /* Build configuration list for PBXNativeTarget "iMonk WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC4655927BEAAAC00E18438 /* Debug */,
+				ACC4655A27BEAAAC00E18438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC4655C27BEAAAC00E18438 /* Build configuration list for PBXNativeTarget "iMonk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC4655D27BEAAAC00E18438 /* Debug */,
+				ACC4655E27BEAAAC00E18438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC4652727BEAAAA00E18438 /* Project object */;
+}
